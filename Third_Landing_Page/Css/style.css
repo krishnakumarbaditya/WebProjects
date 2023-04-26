@@ -1,0 +1,347 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.uni-padding{
+    padding-left: 141px;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+a{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Header section */
+.header{
+    float: left;
+    width: 100%;
+    height: 768px;
+    background-image: url(../Image/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+}
+nav{
+    overflow: auto;
+    width: 100%;
+    height: 60px;
+    margin-top: 50px;
+    position: relative;
+}
+#logo{
+    float: left;
+    width: 50%;
+}
+#logo img{
+    height: 50px;
+}
+
+#menu{
+    width: 50%;
+    display: inline-block;
+}
+#menu ul{
+    padding-top: 16px;
+    margin-left: 60px;
+}
+#menu ul li{
+    display: inline-block;
+    list-style: none;
+    padding-right: 52px;
+}
+#menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+}
+/* about */
+#about{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: 154px;
+    
+}
+#about h1{
+    font-size: 63px;
+    line-height: 70px;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+#about p{
+    font-size: 17px;
+    margin-bottom: 56px;
+    color: #3f4248;
+    line-height: 20px;
+}
+#about a{
+    font-size: 17px;
+    text-decoration: none;
+       
+}
+.btn{
+    width: 172px;
+    display: inline-block;
+    background-color: #ff531e;
+    color: #ffffff;
+    padding: 12px;
+    border-radius: 18px;
+    text-align: center;
+    transition: 0.8s ease-in-out; 
+}
+.btn:hover{
+    background-color: #55d7ff;
+   
+    cursor: pointer;
+}
+/* body */
+#body{
+    float: left;
+    width: 100%;
+    position: absolute;
+    top: 1000px;
+}
+#body-img{
+    width: 63%;
+    float: left;
+}
+#body-img img{
+    width: 90%;
+}
+#body-txt{
+    width: 32%;
+    float: left;
+    margin-top: 100px;
+    margin-right: 8px;
+    text-align: right;
+}
+#body-txt h4{
+    font-size: 15px;
+    color: #97999d;
+    letter-spacing: 3px;
+}
+#body-txt h1{
+    font-size: 59px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+#body-txt p{
+    color: #97999d;
+    margin-bottom: 25px;
+}
+#body-txt a{
+    text-decoration: none;
+}
+    
+/* Features */
+#feature{
+    float: left;
+    position: absolute;
+    top: 1800px;
+    width: 100%;
+}
+#f-heading {
+    width: 100%;
+}
+#f-heading h4{
+    text-align: center;
+    color: #9b9c9f;
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+#f-heading h1{
+    text-align: center;
+    font-size: 52px;
+    margin-bottom: 66px;
+}
+.container{
+    width: 100%;
+    float: left;
+    margin-bottom: 90px;
+}
+.f-icontext{
+    width: 30%;
+    float: left;
+    margin-right: 40px;
+}
+.icon-img{
+    margin-bottom: 24px;
+}
+.f-text h4{
+    text-align: left;
+    margin-bottom: 10px;
+}
+.f-text p{
+    text-align: left;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #1e1e1e;
+}
+/* Footer */
+footer{
+    width: 100%;
+    position: absolute;
+    top: 2550px;
+    height: 350px;
+    background-image: url(../Image/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+footer h4{
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 3px;
+    margin-top: 97px;
+}
+footer h1{
+    color: #fff;
+    font-size: 46px;
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+footer p{
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 3px;
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-top: 20px;
+}
+/* Responsive Design for ipad pro width 1024 */
+@media screen and (min-width:1024px) {
+    .uni-padding {
+        padding-left: 92px;
+    }
+    #menu ul{
+        padding-top: 9px;
+        margin-left: 18px;
+    } 
+    #menu ul li {
+        padding-right: 8%;
+    } 
+    #about h1 {
+        font-size: 48px;
+    } 
+    #about p {
+        font-size: 14px;
+    } 
+    #body-img {
+        width: 60%;
+    }
+    #body-img img {
+        width: 95%;
+    }
+    #body-txt {
+        width: 33%;
+        margin-top: 78px;
+    }
+    #body-txt h1 {
+        font-size: 47px;
+        margin-bottom: 13px;
+    }
+    #body-txt p {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .f-icontext {
+        width: 29%;
+    }
+    footer h1 {
+        font-size: 30px;
+    }
+    footer p {
+        font-size: 13px;
+        letter-spacing: 3px;
+        margin-left: 130px;
+        margin-right: 130px;
+    }
+    footer h4 {
+        font-size: 17px;
+        letter-spacing: 4px;
+        font-weight: 500;
+    }
+}
+
+/* Responsive Design for ipad  width 768px */
+@media screen and ((min-width:768px) and (max-width:1023px)){
+    .uni-padding {
+        padding-left: 60px;
+    }
+    .header{
+        background-size: 100% 87%;
+    }
+    #logo {
+        width: 40%;
+    }
+    #menu {
+        width: 60%;
+    }
+    #menu ul {
+        padding-top: 12px;
+        margin-left: 19px;
+    }
+    #menu ul li {
+        padding-right: 22px;
+    }
+    #about {
+        top: 131px;
+    }
+    #about h1 {
+        font-size: 34px;
+        line-height: 43px;
+    }
+    #about p {
+        font-size: 17px;
+        line-height: 21px;
+        margin-bottom: 37px;
+        width: 35%;
+    }
+    #body-img {
+        width: 100%;
+    }
+    #body-txt {
+        width: 100%;
+        float: left;
+        margin-top: 52px;
+        text-align: center;
+    }
+    #body-txt p {
+        margin-left: 86px;
+        margin-right: 86px;
+    }
+    #feature{
+        top: 2320px;
+    }
+    .f-icontext {
+        width: 47%;
+        margin-right: 18px;
+    }
+    .f-sep {
+        float: initial;
+    }
+
+
+    footer{
+        top: 3357px;
+    }
+    footer h1 {
+        font-size: 26px;
+    }
+    footer p {
+        font-size: 16px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+}
+
