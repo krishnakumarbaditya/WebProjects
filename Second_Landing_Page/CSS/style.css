@@ -1,13 +1,20 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+.uni-padding{
+    padding-left: 76px;
+    padding-right: 76px;
 }
 .main{
     width: 100%;
     background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(../IMG/1.jpg);
     background-position: center;
-    background-size: cover;
-    height: 100vh;
+    background-size: 100% 117%;
+    height: 655px;
+    background-repeat: no-repeat;
+    position: absolute;
 }
 .navbar{
     width: 100%;
@@ -23,7 +30,6 @@
     color: #ff7200;
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 56px;
     padding-top: 10px;
     float: left;
 }
@@ -96,39 +102,36 @@ ul li a:hover{
 }
 
 .content{
-    width: 1200px;
+    width: 100%;
     height: auto;
-    margin: auto;
     color: #fff;
     position: relative;
 }
-.content .par{
-    padding-left: 20px;
+.par{
     padding-bottom: 25px;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1.2px;
     line-height: 30px;
+    font-size: 14px;
 }
 .content h1{
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
-    padding-left: 20px;
     margin-top: 9%;
     letter-spacing: 2px;
 }
-.content .cn{
+.cn{
     width: 160px;
     height: 40px;
     background: #ff7200;
     border: none;
-    margin-left: 20px;
     margin-bottom: 10px;
     font-size: 18px;
     border-radius: 10px;
     cursor: pointer;
     transition: 0.5s  ease-in-out;
 }
-.content .cn a{
+.cn a{
     text-decoration: none;
     color: black;
     
@@ -143,12 +146,12 @@ ul li a:hover{
 
 
 .form{
-    width: 250px;
-    height: 380px;
+    width: 296px;
+    height: 435px;
     background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     position: absolute;
     top: -20px;
-    left: 870px;
+    left: 922px;
     border-radius: 10px;
     padding: 25px;
 }
@@ -204,7 +207,7 @@ ul li a:hover{
     color: #000;
     font-weight: bold;
 }
-.form .link{
+.link{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     padding-top: 20px;
